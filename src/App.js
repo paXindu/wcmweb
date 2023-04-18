@@ -1,10 +1,10 @@
-// import Home from './pages/home'
-import Fetch from './pages/readdata'
+import Mapdata from './pages/readdata'
+// import QrApp from './pages/qr'
 import './App.css';
 
 function App() {
   return (
-    <Fetch />
+    <Mapdata />
 
   );
 }
