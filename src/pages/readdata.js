@@ -55,7 +55,8 @@ export default function Mapdata() {
 
   return (
     <div className="max-w-3xl mx-auto">
-      <h1 className="text-3xl font-bold mb-4">Waste Collection Management</h1>
+      <h1 className="text-3xl font-bold mb-4 text-justify">Waste Collection Management</h1>
+      <h3 className="text-3xl font-bold mb-4 text-justify">Locations & Status</h3>
       <ul className="relative">
         {locations.map((location) => (
           <li
