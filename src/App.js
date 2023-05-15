@@ -1,12 +1,8 @@
-import Mapdata from './pages/readdata'
-// import QrApp from './pages/qr'
-import './App.css';
+import "./index.css";
+import Mapdata from "./pages/readdata";
 
 function App() {
-  return (
-    <Mapdata />
-
-  );
+  return <Mapdata />;
 }
 
 export default App;
