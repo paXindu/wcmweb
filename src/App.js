@@ -2,7 +2,7 @@ import "./index.css";
 import Mapdata from "./pages/readdata";
 
 function App() {
-  return <Mapdata />;
+  return <Home />;
 }
 
 export default App;
